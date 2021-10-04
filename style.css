@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  font-family: "Mulish", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";   
+  line-height: 1.7em;
+}
+
+h1,h2,h3 {
+  padding-bottom: 20px;
+  color:  rgb(111, 66, 193);
+}
+
+p {
+  margin: 10px 0;
+  
+}
+
+header p {
+  padding-top: 15px;
+  margin-left: 150px;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+li {
+  list-style: none;
+
+}
+
+.top {
+  display: flex;
+  position: fixed;
+  top: 0;
+  background: rgb(240, 236, 249);
+
+ 
+}
+
+.menu {
+  display: flex;
+  padding: 20px;
+  margin: 0 500px;
+
+  
+}
+.menu li {
+  padding-right: 40px;
+  
+}
+/*
+main {
+  padding: 20px 60px;
+  margin: 0 20px;
+} */
+
+.first {
+  display: flex;
+ /* margin-top: 100px;*/
+ padding-top: 100px;
+ background-color: rgb(240, 236, 249);
+
+}
+
+.first {
+  border-radius: 0% 0% 70% 0%;
+  z-index: -1;
+}
+
+
+.text {
+padding-left:  80px;
+line-height: 1.5em;
+}
+.text h1 {
+  font-size: 40px;
+}
+
+.text h5 {
+  color: rgb(144, 124, 189);
+}
+
+.text p {
+  color: rgb(128,128,128);
+}
+
+.image {
+  padding-top: 50px ;
+  padding-left: 150px;
+  
+}
+
+.corona {
+ text-align: center;
+ padding: 80px;
+ text-decoration-color: rgb(128,128,128);
+}
+
+.corona h1 {
+  font-size: 30px;
+}
+
+.corona p {
+  color: rgb(128,128,128);
+}
+
+.cases {
+  display: flex;
+  text-align: center;
+  
+}
